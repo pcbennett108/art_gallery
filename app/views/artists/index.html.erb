@@ -1,0 +1,6 @@
+<h1>Artists</h1>
+<% @artists.each do |artist| %>
+  <h3><%= artist.name %></h3>
+  <p>Style: <%= artist.style %></p>
+  <p>Number of Exhibitions: <%= artist.exhibitions %></p>
+<% end %>
